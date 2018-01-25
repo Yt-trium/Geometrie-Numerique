@@ -6,6 +6,7 @@ class Vertex
 {
 public:
     Vertex();
+    ~Vertex();
 };
 
 #endif // VERTEX_H

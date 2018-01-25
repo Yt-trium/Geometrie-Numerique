@@ -6,6 +6,7 @@ class Mesh
 {
 public:
     Mesh();
+    ~Mesh();
 };
 
 #endif // MESH_H

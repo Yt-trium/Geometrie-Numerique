@@ -6,6 +6,7 @@ class Face
 {
 public:
     Face();
+   ~Face();
 };
 
 #endif // FACE_H

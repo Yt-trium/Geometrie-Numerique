@@ -6,6 +6,7 @@ class HalfEdge
 {
 public:
     HalfEdge();
+    ~HalfEdge();
 };
 
 #endif // HALFEDGE_H
