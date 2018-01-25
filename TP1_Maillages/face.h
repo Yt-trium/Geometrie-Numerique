@@ -8,6 +8,7 @@ class Face
 public:
     Face();
    ~Face();
+    void setId(unsigned int id);
 
 private:
     unsigned int id;

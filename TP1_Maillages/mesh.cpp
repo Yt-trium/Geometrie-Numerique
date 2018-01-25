@@ -56,6 +56,7 @@ int Mesh::import(std::string filename)
         input >> tmp_d_y;
         input >> tmp_d_z;
 
+        tmp_vertex.setId(i);
         tmp_vertex.setCoord(tmp_d_x,tmp_d_y,tmp_d_z);
 
         // std::cout << tmp_d_x << " " << tmp_d_y << " " << tmp_d_z << std::endl;
@@ -78,6 +79,7 @@ int Mesh::import(std::string filename)
             return -1;
         }
 
+        tmp_face.setId(i);
         // tmp_face;
 
         // std::cout << tmp_id1 << " " << tmp_id2 << " " << tmp_id3 << std::endl;
