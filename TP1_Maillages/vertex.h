@@ -16,6 +16,7 @@ class Vertex
 public:
     Vertex();
     ~Vertex();
+    void setCoord(double x, double y, double z);
 
 private:
     unsigned int id;

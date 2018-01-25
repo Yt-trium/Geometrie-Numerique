@@ -4,3 +4,8 @@ HalfEdge::HalfEdge()
 {
 
 }
+
+HalfEdge::~HalfEdge()
+{
+
+}

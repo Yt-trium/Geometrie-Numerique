@@ -4,3 +4,8 @@ Face::Face()
 {
 
 }
+
+Face::~Face()
+{
+
+}

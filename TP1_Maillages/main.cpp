@@ -1,9 +1,17 @@
 #include <iostream>
+#include <string>
 
-using namespace std;
+#include "mesh.h"
 
 int main()
 {
-    cout << "Hello World!" << endl;
+    std::cout << "TP1 Maillages" << std::endl;
+
+    int flag = 0;
+    Mesh *m = new Mesh();
+
+    flag = m->import("OFF/almost_torus.off");
+    std::cout << "import(\"OFF/almost_torus.off\") : " << flag << std::endl;
+
     return 0;
 }

@@ -2,6 +2,7 @@
 #define MESH_H
 
 #include <vector>
+#include <string>
 
 #include "vertex.h"
 #include "face.h"
@@ -12,7 +13,7 @@ public:
     Mesh();
     ~Mesh();
 
-    void import();
+    int import(std::string filename);
 
 private:
     std::vector<Vertex> v;
